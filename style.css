@@ -1,0 +1,363 @@
+body {
+
+    margin: 0;
+
+    padding: 20px;
+
+    background-color: #e9e7e3;
+
+    font-family: Arial, sans-serif;
+
+    color: #222;
+
+}
+
+
+.container {
+
+    width: 1000px;
+
+    margin: auto;
+
+    background-color: white;
+
+    padding: 40px;
+
+    box-sizing: border-box;
+
+}
+
+
+/* =========================
+   PROFILE
+========================= */
+
+.profile-table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-bottom: 20px;
+
+}
+
+
+.profile-photo-cell {
+
+    width: 220px;
+
+    text-align: center;
+
+    vertical-align: top;
+
+    background-color: #eeeeec;
+
+    padding: 20px;
+
+}
+
+
+.profile-detail-cell {
+
+    vertical-align: top;
+
+    padding-left: 30px;
+
+}
+
+
+/* Challenge:
+   ทำให้รูปกับ Text ห่างกัน
+
+   เราใช้ padding-left
+   ในช่อง TD ฝั่งข้อความ
+*/
+
+
+.profile-photo {
+
+    width: 250px;
+
+    height: 250px;
+
+    object-fit:none;
+
+    border-radius: 50%;
+
+}
+
+
+.profile-detail-cell h1 {
+
+    font-size: 50px;
+
+    margin: 0;
+
+}
+
+
+.profile-detail-cell h2 {
+
+    color: #1877e8;
+
+    font-size: 20px;
+
+    margin-top: 5px;
+
+}
+
+
+.profile-detail-cell p {
+
+    margin: 15px 0;
+    font-size: 21px;
+
+
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.button {
+
+    display: inline-block;
+
+    margin-top: 10px;
+
+    padding: 10px 18px;
+
+    background-color: #1877e8;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+}
+
+
+.button:hover {
+
+    background-color: #105bb5;
+
+}
+
+
+/* =========================
+   MAIN LAYOUT
+========================= */
+.main-layout {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 21px;
+}
+
+.left-column,
+.right-column {
+    width: 50%;
+    vertical-align: top;
+}
+
+.left-column {
+    padding-right: 20px;
+    border-right: 5px solid lightseagreen; /* เส้นคั่นกลาง */
+}
+
+.right-column {
+    padding-left: 20px;
+}
+
+
+.left-column,
+.right-column {
+
+    width: 50%;
+
+    vertical-align: top;
+
+}
+
+
+.left-column {
+
+    padding-right: 15px;
+
+}
+
+
+.right-column {
+
+    padding-left: 15px;
+
+}
+
+
+/* =========================
+   SECTION
+========================= */
+
+section {
+
+    margin-bottom: 22px;
+
+}
+
+
+section h3 {
+
+    border-bottom: 3px solid #1877e8;
+
+    padding-bottom: 5px;
+
+    margin-bottom: 10px;
+
+}
+
+
+section p,
+section li {
+
+    line-height: 1.5;
+
+}
+
+
+/* =========================
+   SKILL TABLE
+========================= */
+
+.skill-table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+}
+
+
+.skill-table th,
+.skill-table td {
+
+    border: 1px solid #999;
+
+    padding: 8px;
+
+    text-align: center;
+
+}
+
+
+.skill-table th {
+
+    background-color: #e7e7e7;
+
+}
+
+
+/* =========================
+   LINK
+========================= */
+
+a {
+
+    color: #0057c8;
+
+}
+
+
+a:hover {
+
+    color: #003f91;
+
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+
+    margin-top: 25px;
+
+    padding-top: 15px;
+
+    border-top: 1px solid #ccc;
+
+    text-align: center;
+
+}
+
+
+/* =========================
+   CONTACT FORM
+========================= */
+
+.contact-form label {
+
+    display: block;
+
+    margin-top: 15px;
+
+    font-weight: bold;
+
+}
+
+
+.contact-form input,
+.contact-form textarea {
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 10px;
+
+    margin-top: 5px;
+
+    border: 1px solid #aaa;
+
+}
+
+
+.contact-form textarea {
+
+    height: 120px;
+
+}
+
+
+.contact-form button {
+
+    margin-top: 15px;
+
+    padding: 10px 20px;
+
+    background-color: #1877e8;
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media screen and (max-width: 900px) {
+
+    .container {
+
+        width: 100%;
+
+    }
+
+}
